@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    /* margin-top: 15px; */
+    /* color: #fff; */
+    height: 5rem;
+    background-color: #72cb81;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    width: 3.5rem;
+    height: 3.7rem;
+}
+.navbar .nav{
+    background-color: #fff;
+    color: white;
+}
+/* .navbar h2{
+    color: #fff;
+    font-size: px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-right: 12px;
+} */
+
+.fa-bars{
+    color: #fff;
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    /* height: 50px;
+    width: 100px; */
+}
+.content h2{
+    /* margin-bottom: 45px; */
+}
+.content{
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 105px 195px; */
+}
+.content h1{
+    text-transform: uppercase;
+    margin-top: 2rem;
+    text-align: center;
+}
+.content img{
+    margin-top: 4rem;
+    height: 12rem;
+    width: 85%;
+    text-align: center;
+    /* margin-left: 55px; */
+}
+.btn button{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #72cb81;
+    height: 48px;
+
+}
+.btn button:hover{
+    transform: scale(1.04);
+    background-color: #62a26d;
+
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 5rem;
+}
